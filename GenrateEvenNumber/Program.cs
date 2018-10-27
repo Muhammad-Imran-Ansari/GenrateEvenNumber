@@ -11,7 +11,7 @@ namespace GenrateEvenNumber
         static void Main(string[] args)
         {
             bool isFirstInt = true;
-            for (int i = 2000; i <= 3000; i++)
+            for (int i = 1000; i <= 3000; i++)
             {
                 if (IsAllLiteralEven(i))
                 {
