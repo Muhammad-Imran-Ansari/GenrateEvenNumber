@@ -1,0 +1,35 @@
+I have created separate projects for each challenge.
+you can open them in Visual Studio.
+set the project as Start up and run the project.
+
+Challenge #1:
+Simply run the project it will return you the list of numbers between 1000 and 3000
+
+
+Challenge #2
+Simply run the project with two parameters for input and output file; and it will do the job for example.
+SortCRVData.exe random_data.csv result_data.csv 
+will read the data from random_data.csv sort it out and write into result_data.csv file.
+
+
+I have run this for both random and large data it works fine. 
+But for really big data this need to be done in chunks; 
+Option1:
+let say you have million records you need to sort;
+need to divide it into smaller which is possible for system to handle; let say 200 000 we can handle easily.
+sort first 200 000 write it down to file
+sort next  200 000 write it down to file
+then next
+Now we have 5 set of record sorted 
+Next step is to compare and merge two sets in sorting order. 
+..
+..
+after few iteration data will become sorted properly.
+
+Option2:
+Read Line by line and writh to file in sorting order.
+
+1. read a line from input file and when writing to target file run an algorith to find a place where it need to be inserted.
+2. read next line and find the place where it need to go.
+
+contiue until end of file.
