@@ -58,7 +58,8 @@ namespace SortCSVData
                 {
                     file.WriteLine(a.ToString());
                 }
-            }  
+            }
+            Console.WriteLine("File generated: {0} successfully", outFile);
         }
 
         private static DateTime? ParseDate(string p)
