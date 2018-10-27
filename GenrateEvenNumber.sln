@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenrateEvenNumber", "GenrateEvenNumber\GenrateEvenNumber.csproj", "{4443DE28-BA28-4064-AA11-D380133EE18A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortCSVData", "SortCSVData\SortCSVData.csproj", "{0BE804D9-E8AB-4812-9B4A-6636F15B924A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4443DE28-BA28-4064-AA11-D380133EE18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4443DE28-BA28-4064-AA11-D380133EE18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4443DE28-BA28-4064-AA11-D380133EE18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4443DE28-BA28-4064-AA11-D380133EE18A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE804D9-E8AB-4812-9B4A-6636F15B924A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE804D9-E8AB-4812-9B4A-6636F15B924A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE804D9-E8AB-4812-9B4A-6636F15B924A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE804D9-E8AB-4812-9B4A-6636F15B924A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
